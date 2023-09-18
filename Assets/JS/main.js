@@ -1,6 +1,6 @@
 const LightOrDark = document.getElementById('Light-or-dark');
 const sunOrMoon = document.getElementById('sun-or-moon');
-const changeTheme = document.getElementById('swtich-theme')
+const changeTheme = document.getElementById('swtich-theme');
 
 let change = 1;
 sunOrMoon.addEventListener('click', () => {
@@ -12,5 +12,5 @@ sunOrMoon.addEventListener('click', () => {
         changeTheme.href = "./Assets/CSS/style.css";
         sunOrMoon.src = "./Assets/IMG/moon.svg";
         change += 1;
-    }
-})
+    };
+});
