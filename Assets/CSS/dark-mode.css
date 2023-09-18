@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    transition: all .3s;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #222222;
+}
+
+#Conteiner-Cartão {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#Light-or-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.625rem;
+    height: 2.625rem;
+    border: none;
+    border-radius: 100%;
+    background: #636363;
+    align-self: flex-end;
+    margin-right: 1rem;
+}    
+
+#sun-or-moon {
+    width: 1.8rem;
+    filter: invert(99%) sepia(23%) saturate(7%) hue-rotate(285deg) brightness(106%) contrast(100%);
+}
+
+#sun-or-moon:hover {
+    filter: invert(19%) sepia(5%) saturate(12%) hue-rotate(22deg) brightness(94%) contrast(97%);
+}
+
+.apresentação {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1.2rem;
+}
+
+.apresentação img {
+    width: 7.688rem;
+    height: 7.688rem;
+    border-radius: 100%;
+}
+
+.apresentação p {
+    text-align: center;
+    width: 17rem;
+    height: 4.063;
+    font-size: 14px;
+}
+
+.apresentação strong {
+    background: #616161;
+    padding: 0 .2rem;
+    border-radius: 0.200rem;
+}
+
+article {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    width: 17.063rem;
+    height: 3.5rem;
+    background: #636363;
+    border-radius: 0.313rem;
+    gap: 2.5rem;
+}
+
+.links img {
+    height: 2.5rem;
+    padding-left: .5rem;
+}
+
+.links a {
+    color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: #8f8e8e;
+}
+
+.creditos {
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.creditos strong {
+    color: rgb(201, 119, 255);
+}
